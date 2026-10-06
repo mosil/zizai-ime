@@ -10,9 +10,13 @@
 
 ## 下載
 
-第一版準備中，尚未提供下載。
+<p align="center">
+  <a href="https://github.com/mosil/zizai-ime/releases/download/v1.0.0/ZiZai-Mac-Universal-1.0.0.zip"><img src="docs/images/download-macos.svg" width="229" height="76" alt="下載字在（macOS 13 以上）"></a>
+</p>
 
-系統需求：macOS 13 以上。
+<p align="center">版本 1.0.0｜發布日期 2026-10-06｜<a href="https://github.com/mosil/zizai-ime/releases/tag/v1.0.0">更新內容與 SHA-256</a></p>
+
+系統需求：macOS 13 以上，支援 Apple 晶片與 Intel。下載後解壓縮，按兩下 `ZiZai.pkg` 安裝，見 [安裝與使用](docs/安裝與使用.md)。
 
 ## 特色
 
