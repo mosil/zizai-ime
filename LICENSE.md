@@ -9,7 +9,7 @@
 ## 1. 可以做的事
 
 - 免費安裝、使用字在，個人或工作上使用都可以。
-- 自由分享字在說明頁（ https://github.com/mosil/zizai-ime ）或 Releases 頁的連結。
+- 自由分享字在說明頁（ https://github.com/zizai-ime/zizai-ime ）或 Releases 頁的連結。
 
 ## 2. 不可以做的事
 
@@ -50,4 +50,4 @@
 
 ## 聯絡
 
-有問題請到 [Issues](https://github.com/mosil/zizai-ime/issues) 留言。
+有問題請到 [Issues](https://github.com/zizai-ime/zizai-ime/issues) 留言。

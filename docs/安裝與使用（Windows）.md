@@ -16,7 +16,7 @@
 
 ## 安裝
 
-1. 從 [下載頁](../README.md#下載) 下載符合電腦的檔案（見「系統需求」）： `ZiZai-Win-x64-<版本>.zip` 或 `ZiZai-Win-x86-<版本>.zip` 。請只從 GitHub 上 `mosil/zizai-ime` 的 [Releases](https://github.com/mosil/zizai-ime/releases) 下載。
+1. 從 [下載頁](../README.md#下載) 下載符合電腦的檔案（見「系統需求」）： `ZiZai-Win-x64-<版本>.zip` 或 `ZiZai-Win-x86-<版本>.zip` 。請只從 GitHub 上 `zizai-ime/zizai-ime` 的 [Releases](https://github.com/zizai-ime/zizai-ime/releases) 下載。
 2. 核對 SHA-256：在下載的資料夾空白處按右鍵，選「在終端機中開啟」（Windows 10 沒有這一項：按住 Shift 再按右鍵，選「在這裡開啟 PowerShell 視窗」），執行下面這行（ `<檔名>` 換成下載的檔名），把顯示的 Hash 和 Releases 頁面上列出的比對：
 
    ```powershell
@@ -142,6 +142,6 @@
 - 只接受 UILess 輸入法的程式（例如部分全螢幕遊戲）用不了字在。
 - 換了 Windows 的深色、淺色模式後，工作列的「中」「英」要切換一次輸入法才會換顏色。
 
-遇到問題，請到 GitHub 的 [Issues](https://github.com/mosil/zizai-ime/issues) 回報。Issues 是公開的：不要直接貼記錄檔的原文，也不要上傳 `user.db` 、`user.pack` 或含有個人資料的截圖；需要記錄時，我們會說明只要哪幾行。
+遇到問題，請到 GitHub 的 [Issues](https://github.com/zizai-ime/zizai-ime/issues) 回報。Issues 是公開的：不要直接貼記錄檔的原文，也不要上傳 `user.db` 、`user.pack` 或含有個人資料的截圖；需要記錄時，我們會說明只要哪幾行。
 
 本頁截圖裡的 Windows 介面屬於 Microsoft，用來說明安裝與使用的步驟；紅框與裁切是字在開發小組加的。

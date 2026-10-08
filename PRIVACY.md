@@ -62,7 +62,7 @@
 
 ## 聯絡與回報問題
 
-有問題請到 [Issues](https://github.com/mosil/zizai-ime/issues) 留言。Issues 是公開的，任何人都看得到：
+有問題請到 [Issues](https://github.com/zizai-ime/zizai-ime/issues) 留言。Issues 是公開的，任何人都看得到：
 
 - 不要貼上字根表的內容、你的詞庫或打字內容。
 - 不要直接貼記錄檔的原文，也不要上傳 `user.db` 、`user.pack` 或含有個人資料的截圖。需要記錄時，我們會說明只要哪幾行，請你先檢查過再貼。

@@ -11,12 +11,12 @@
 ## 下載
 
 <p align="center">
-  <a href="https://github.com/mosil/zizai-ime/releases/download/v1.0.0/ZiZai-Mac-Universal-1.0.0.zip"><img src="docs/images/download-macos.svg" width="229" height="76" alt="下載字在（macOS 13 以上）"></a>
-  <a href="https://github.com/mosil/zizai-ime/releases/download/v1.0.0/ZiZai-Win-x64-1.0.0.zip"><img src="docs/images/download-windows-x64.svg" width="310" height="76" alt="下載字在（Windows 10、11，64 位元）"></a>
-  <a href="https://github.com/mosil/zizai-ime/releases/download/v1.0.0/ZiZai-Win-x86-1.0.0.zip"><img src="docs/images/download-windows-x86.svg" width="310" height="76" alt="下載字在（Windows 10，32 位元）"></a>
+  <a href="https://github.com/zizai-ime/zizai-ime/releases/download/v1.0.0/ZiZai-Mac-Universal-1.0.0.zip"><img src="docs/images/download-macos.svg" width="229" height="76" alt="下載字在（macOS 13 以上）"></a>
+  <a href="https://github.com/zizai-ime/zizai-ime/releases/download/v1.0.0/ZiZai-Win-x64-1.0.0.zip"><img src="docs/images/download-windows-x64.svg" width="310" height="76" alt="下載字在（Windows 10、11，64 位元）"></a>
+  <a href="https://github.com/zizai-ime/zizai-ime/releases/download/v1.0.0/ZiZai-Win-x86-1.0.0.zip"><img src="docs/images/download-windows-x86.svg" width="310" height="76" alt="下載字在（Windows 10，32 位元）"></a>
 </p>
 
-<p align="center">版本 1.0.0｜發布日期 2026-10-08｜<a href="https://github.com/mosil/zizai-ime/releases/tag/v1.0.0">更新內容與 SHA-256</a></p>
+<p align="center">版本 1.0.0｜發布日期 2026-10-08｜<a href="https://github.com/zizai-ime/zizai-ime/releases/tag/v1.0.0">更新內容與 SHA-256</a></p>
 
 - **macOS**：macOS 13 以上，支援 Apple 晶片與 Intel。下載後解壓縮，按兩下 `ZiZai.pkg` 安裝，見 [安裝與使用](docs/安裝與使用.md)。
 - **Windows**：Windows 10、11，64 位元或 32 位元，下載的檔案不同；不知道是哪一種，見 [安裝與使用（Windows）](docs/安裝與使用（Windows）.md) 的系統需求。安裝程式與輸入法還沒有數位簽章：Windows 會跳出安全警告，請先照說明核對 SHA-256，再決定要不要安裝；「智慧型應用程式控制」開著的電腦，或公司、學校管理的電腦，可能裝不起來，或裝好了也載入不了字在。
@@ -35,11 +35,11 @@ macOS 見 [安裝與使用](docs/安裝與使用.md)，Windows 見 [安裝與使
 
 ## 問題與建議
 
-請到 [Issues](https://github.com/mosil/zizai-ime/issues) 回報。Issues 是公開的，請不要貼上字根表內容、詞庫或打字內容。
+請到 [Issues](https://github.com/zizai-ime/zizai-ime/issues) 回報。Issues 是公開的，請不要貼上字根表內容、詞庫或打字內容。
 
 ## 使用條款與資料來源
 
-字在免費，但不開放原始碼，使用條款見 [LICENSE.md](LICENSE.md)。這個儲存庫只放說明文件，安裝檔放在 [Releases](https://github.com/mosil/zizai-ime/releases)。
+字在免費，但不開放原始碼，使用條款見 [LICENSE.md](LICENSE.md)。這個儲存庫只放說明文件，安裝檔放在 [Releases](https://github.com/zizai-ime/zizai-ime/releases)。
 
 內建字根表的碼由程式依字在的取碼規則、全字庫的部件與筆順資料，以及人工指定與調整的字根清單產生。本表不是任何輸入法廠商的官方字根表；字在與任何輸入法廠商無關，未經其授權或背書。
 
