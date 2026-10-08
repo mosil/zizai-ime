@@ -16,7 +16,7 @@
   <a href="https://github.com/zizai-ime/zizai-ime/releases/download/v1.0.0/ZiZai-Win-x86-1.0.0.zip"><img src="docs/images/download-windows-x86.svg" width="310" height="76" alt="下載字在（Windows 10，32 位元）"></a>
 </p>
 
-<p align="center">版本 1.0.0｜發布日期 2026-10-08｜<a href="https://github.com/zizai-ime/zizai-ime/releases/tag/v1.0.0">更新內容與 SHA-256</a></p>
+<p align="center">版本 1.0.0｜發布日期 2026-10-09｜<a href="https://github.com/zizai-ime/zizai-ime/releases/tag/v1.0.0">更新內容與 SHA-256</a></p>
 
 - **macOS**：macOS 13 以上，支援 Apple 晶片與 Intel。下載後解壓縮，按兩下 `ZiZai.pkg` 安裝，見 [安裝與使用](docs/安裝與使用.md)。
 - **Windows**：Windows 10、11，64 位元或 32 位元，下載的檔案不同；不知道是哪一種，見 [安裝與使用（Windows）](docs/安裝與使用（Windows）.md) 的系統需求。安裝程式與輸入法還沒有數位簽章：Windows 會跳出安全警告，請先照說明核對 SHA-256，再決定要不要安裝；「智慧型應用程式控制」開著的電腦，或公司、學校管理的電腦，可能裝不起來，或裝好了也載入不了字在。
