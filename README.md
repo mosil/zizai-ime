@@ -4,7 +4,7 @@
 
 <h1 align="center">ZiZai 字在輸入法</h1>
 
-<p align="center">免費的 macOS／Windows 中文字根輸入法</p>
+<p align="center">免費的 macOS／Windows 中文輸入法</p>
 
 字在是 macOS 與 Windows 的中文字根（形碼）輸入法，為正體中文（繁體）設計。內建字根表，裝好就能打字；也可以匯入自己的 `.cin` 字根表、補字、改輸入碼。
 
