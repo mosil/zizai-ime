@@ -7,6 +7,7 @@
 ## 重點
 
 - 字在沒有把你打的字、詞庫、擴充字根表或記錄檔傳給字在開發小組的功能，也不回傳使用統計，不放廣告。
+- 電腦版匯入資料更新包不連網：檔案由你自己下載，「字在設定」在你的電腦上驗證簽章後解開存放。
 - 你的資料都存在你的電腦、手機或平板上，位置見本政策的「資料存在哪裡」、「Android 版」與「iOS 版」。macOS 與 Windows 版解除安裝不會刪除它們。
 - Android 版的設定與匯入的字根表，存在字在的 App 私有資料夾，不參與雲端備份與裝置間移轉；解除安裝時一起刪除。
 - iOS 版不要求「允許完整取用」，iOS 不讓字在的鍵盤連網。選項存在字在的 App 資料夾，不進 iCloud 與電腦的備份；刪除 App 時一起刪除。
@@ -17,7 +18,7 @@
 ## 連網
 
 - 輸入法本體沒有連網的功能。
-- 「字在設定」也沒有字在自己的連網功能。
+- 「字在設定」也沒有字在自己的連網功能。匯入資料更新包時，它只讀取你選的檔案。
 - Windows 版的「字在設定」用 Microsoft Edge WebView2 顯示畫面。WebView2 是 Microsoft 的元件，Windows 11 內建：
   - 不論 Windows 怎麼設定，它都會收集維持效能與可靠性所需的必要診斷資料。選用的診斷資料，依「設定」→「隱私權與安全性」→「診斷與意見反應」的設定（Windows 10 是「設定」→「隱私權」→「診斷與意見反應」）。
   - 它含有 Microsoft Defender SmartScreen，會依 [Microsoft 隱私權聲明](https://aka.ms/privacy) 收集資訊並傳給 Microsoft。
@@ -38,10 +39,11 @@
 | 資料 | macOS | Windows |
 |---|---|---|
 | 我的詞庫、擴充字根表、符號設定 | `~/Library/Application Support/Zizai/` | `%APPDATA%\Zizai\` |
-| 輸入法的選項（例如以四碼或三碼為主） | macOS 的偏好設定（ `studio.mosil.inputmethod.zizai` ） | `%APPDATA%\Zizai\settings.json` |
+| 輸入法的選項（例如以四碼或三碼為主） | macOS 的偏好設定（ `studio.mosil.inputmethod.zizai` ） | `%APPDATA%\Zizai\ime\settings.json` |
+| 匯入的資料更新包、「接受測試資料包」的設定 | `~/Library/Application Support/Zizai/data/` | `%APPDATA%\Zizai\ime\data\` |
 | 記錄檔 | 預設不寫（見下方） | `%LOCALAPPDATA%\Zizai\tsf.log` 與 `tsf.log.1` |
 
-- **Windows 的沙箱 App**：開始功能表的搜尋、市集 App 在沙箱裡執行，字在在那裡打字時也是在沙箱裡。為了在那些地方也能用你的詞庫，字在讓它們讀得到詞庫的快照（ `user.pack` ）、擴充字根表、選項與字根表清單。詞庫的資料庫本身（ `user.db` ）不開放。也就是說，這些 App 技術上讀得到你的詞庫內容。
+- **Windows 的沙箱 App**：開始功能表的搜尋、市集 App 在沙箱裡執行，字在在那裡打字時也是在沙箱裡。為了在那些地方也能用你的詞庫，字在讓它們讀得到詞庫的快照（ `user.pack` ）、擴充字根表、選項、字根表清單與匯入的資料更新包。詞庫的資料庫本身（ `user.db` ）不開放。也就是說，這些 App 技術上讀得到你的詞庫內容。
 - 資料存在你的電腦上，不代表經過加密，也不代表其他程式一定讀不到：有足夠權限的程式仍然可能讀取。你正在打字的 App 也收得到你送出的文字，那些 App 怎麼處理這些文字，字在無法控制。
 - 解除安裝不會刪除這些資料。不要了的話：
   - macOS：步驟見 [安裝與使用](docs/安裝與使用.md#解除安裝)。輸入法的選項要另外清除。
